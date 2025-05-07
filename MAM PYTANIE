@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Czy kochasz mnie jeszcze?</title>
+  <style>
+    body {
+      background-color: #ffc0cb;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+    button {
+      font-size: 24px;
+      padding: 10px 30px;
+      margin: 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    button:hover {
+      transform: scale(1.1);
+    }
+    .tak {
+      background-color: #90ee90;
+    }
+    .nie {
+      background-color: #ff6961;
+    }
+  </style>
+</head>
+<body>
+  <h1>Czy kochasz mnie jeszcze?</h1>
+  <button class="tak" onclick="alert('Ja też Cię kocham!')">Tak</button>
+  <button class="nie" onclick="alert('O nie...')">Nie</button>
+</body>
+</html>
